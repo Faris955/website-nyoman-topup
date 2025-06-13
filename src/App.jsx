@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Scripts from "./Components/scripts_fix";
+import Scripts from "./Components/scripts";
 import Navbar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
 import GameList from "./Components/Gamelist";
