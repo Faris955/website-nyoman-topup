@@ -1,0 +1,31 @@
+:root {
+  --primary-bg: #0a0a0f;
+  --secondary-bg: #151520;
+  --card-bg: #1a1a2e;
+  --neon-blue: #00d4ff;
+  --neon-purple: #8b5cf6;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0b0;
+  --accent-gradient: linear-gradient(
+    135deg,
+    var(--neon-blue),
+    var(--neon-purple)
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--primary-bg);
+  color: var(--text-primary);
+  overflow-x: hidden;
+}
+
+.orbitron {
+  font-family: "Orbitron", monospace;
+}
